@@ -29,11 +29,11 @@ end
 incdir, libdir = dir_config("opencv4", "/usr/local/include", "/usr/local/lib")
 dir_config("libxml2", "/usr/include", "/usr/lib")
 
-opencv_headers = ["opencv2/core/core_c.h", "opencv2/core/core.hpp", "opencv2/imgproc/imgproc_c.h",
-                  "opencv2/imgproc/imgproc.hpp", "opencv2/video/tracking.hpp", "opencv2/features2d/features2d.hpp",
-                  "opencv2/flann/flann.hpp", "opencv2/calib3d/calib3d.hpp", "opencv2/objdetect/objdetect.hpp",
-                  "opencv2/highgui/highgui_c.h", "opencv2/highgui/highgui.hpp", "opencv2/photo/photo.hpp"]
-opencv_headers_opt = ["opencv2/nonfree/nonfree.hpp"]
+opencv_headers = ["opencv4/opencv2/core/core_c.h", "opencv4/opencv2/core/core.hpp", "opencv4/opencv2/imgproc/imgproc_c.h",
+                  "opencv4/opencv2/imgproc/imgproc.hpp", "opencv4/opencv2/video/tracking.hpp", "opencv4/opencv2/features2d/features2d.hpp",
+                  "opencv4/opencv2/flann/flann.hpp", "opencv4/opencv2/calib3d/calib3d.hpp", "opencv4/opencv2/objdetect/objdetect.hpp",
+                  "opencv4/opencv2/highgui/highgui_c.h", "opencv4/opencv2/highgui/highgui.hpp", "opencv4/opencv2/photo/photo.hpp"]
+opencv_headers_opt = ["opencv4/opencv2/nonfree/nonfree.hpp"]
 
 opencv_libraries = ["opencv_calib3d", "opencv_core", "opencv_features2d", "opencv_flann",
                     "opencv_highgui", "opencv_imgproc", "opencv_ml", "opencv_objdetect",
